@@ -1,10 +1,20 @@
 - 👋 Hi, I’m @DOCTYPEmike
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👀 I’m interested in <!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph.</p>
+    <a href="https://www.example.com">Visit Example.com</a>
+</body>
+</html>
+- 🌱 I’m currently learning 
+- 💞️ I’m looking to collaborate on 
+- 📫 How to reach me 
+- 😄 Pronouns: 
+- ⚡ Fun fact: 
 
 <!---
 DOCTYPEmike/DOCTYPEmike is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

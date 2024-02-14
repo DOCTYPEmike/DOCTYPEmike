@@ -1,3 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
 - 👋 Hi, I’m @DOCTYPEmike
 - 👀 I’m interested in <!DOCTYPE html>
 <html>
@@ -7,14 +17,46 @@
 <body>
     <h1>Welcome to My Website</h1>
     <p>This is a paragraph.</p>
-    <a href="https://www.example.com">Visit Example.com</a>
+    <a href="https://www.github.com/majikmike">Visit Example.com</a>
 </body>
 </html>
-- 🌱 I’m currently learning 
-- 💞️ I’m looking to collaborate on 
-- 📫 How to reach me 
-- 😄 Pronouns: 
-- ⚡ Fun fact: 
+- 🌱 I’m currently learning body {
+    background-color: black;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+- 💞️ I’m looking to collaborate on c# using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
+- java public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+- #include <iostream>
+
+int main() {
+    std::cout << "Hello, World!";
+    return 0;
+}
+- 
 
 <!---
 DOCTYPEmike/DOCTYPEmike is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

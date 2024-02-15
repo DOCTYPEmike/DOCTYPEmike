@@ -158,3 +158,10 @@ Next steps
 "Creating an account on GitHub"
 Further reading
 "Connecting to GitHub"
+
+
+coveralls
+
+https://github.com/fog/fog/commit/2c9ee579d0349a4dfb58245e47398ab273e09111
+
+https://github.com/fog/fog/commit/2c9ee579d0349a4dfb58245e47398ab273e09111

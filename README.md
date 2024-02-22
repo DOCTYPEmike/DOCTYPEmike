@@ -366,3 +366,12 @@ ssh: Could not resolve hostname keygen: No address associated with hostname
 $ -46AaCfGgKkMNnqsTtVvXxYy
 sh: 1: -46AaCfGgKkMNnqsTtVvXxYy: not found
 $
+
+
+192.168.136.159map scan report for 192.168.136.159 [host d14:53:44 [1870/1939]
+Nmap scan report for 192.168.136.160 [host down]                Nmap scan report for 192.168.136.161 [host down]                Nmap scan report for 192.168.136.162 [host down]                Nmap scan report for 192.168.136.163 [host down]                Nmap scan report for 192.168.136.164 [host down]                Nmap scan report for 192.168.136.165 [host down]                Nmap scan report for 192.168.136.166 [host down]                Nmap scan report for 192.168.136.167 [host down]                Nmap scan report for 192.168.136.168 [host down]                Nmap scan report for 192.168.136.169 [host down]                Nmap scan report for 192.168.136.170 [host down]                Nmap scan report for 192.168.136.171 [host down]                Nmap scan report for 192.168.136.172 [host down]                Nmap scan report for 192.168.136.173 [host down]
+Nmap scan report for 192.168.136.174 [host down]
+Nmap scan report for 192.168.136.175 [host down]
+Nmap scan report for 192.168.136.176 [host down]                Nmap scan report for 192.168.136.177 [host down]                Nmap scan report for 192.168.136.178 [host down]                Nmap scan report for 192.168.136.179 [host down]                Nmap scan report for 192.168.136.180 [host down]                Nmap scan report for 192.168.136.181 [host down]
+Nmap scan report for 192.168.136.182 [host down]                Nmap scan report for 192.168.136.183 [host down]                Nmap scan report for 192.168.136.184 [host down]                Nmap scan report for 192.168.136.185 [host down]
+Nmap scan report for 192.168.136.186 [host down]                Nmap scan report for 192.168.136.187 [host down]                Nmap scan report for 192.168.136.188 [host down]                [0] 0:[tmux]*                        "localhost"

@@ -1,4 +1,216 @@
-using System;
+using System;~ $ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+~ $ gcloud help
+No command gcloud found, did you mean:
+ Command hcloud in package hcloud
+~ $ helo
+No command helo found, did you mean:
+ Command hello in package hello
+ Command helm in package helm
+~ $ help
+GNU bash, version 5.2.26(1)-release (aarch64-unknown-linux-android)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                          history [-c] [-d offset] [n] or history -anrw [filename] or histor>
+ (( expression ))                                                      if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [>
+ . filename [arguments]                                                jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                                     kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill>
+ [ arg... ]                                                            let arg [arg ...]
+ [[ expression ]]                                                      local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                                        logout [n]
+ bg [job_spec ...]                                                     mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] >
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r >  popd [-n] [+N | -N]
+ break [n]                                                             printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                     pushd [-n] [+N | -N | dir]
+ caller [expr]                                                         pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac            read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars>
+ cd [-L|[-P [-e]] [-@]] [dir]                                          readarray [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd>
+ command [-pVv] command [arg ...]                                      readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wo>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G g>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DEI] [name ...]                              set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
+ continue [n]                                                          shift [n]
+ coproc [NAME] command [redirections]                                  shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value] ...] or declare -p [-aAfFiln>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                                suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                             test [expr]
+ echo [-neE] [arg ...]                                                 time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                          times
+ eval [arg ...]                                                        trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argument ...]] [redirection ...]       true
+ exit [n]                                                              type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                          typeset [-aAfFgiIlnrtux] name[=value] ... or typeset -p [-aAfFilnr>
+ false                                                                 ulimit [-SHabcdefiklmnpqrstuvxPRT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]      umask [-p] [-S] [mode]
+ fg [job_spec]                                                         unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                          unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done                         until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }                variables - Names and meanings of some shell variables
+ getopts optstring name [arg ...]                                      wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                             while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]                                             { COMMANDS ; }
+~ $ system stat
+No command system found, did you mean:
+ Command bastet in package bastet
+ Command paste in package coreutils
+ Command syscse in package dwarves
+ Command states in package enscript
+ Command yat2m in package libgpg-error
+ Command sortm in package mailutils
+ Command sortm in package nmh
+ Command sem in package parallel
+ Command pastel in package pastel
+ Command sysctl in package procps
+ Command smem in package secure-delete
+ Command skate in package skate
+ Command sorter in package sleuthkit
+ Command step in package step-cli
+ Command swtpm in package swtpm
+ Command synctex in package texlive-bin
+ Command setterm in package util-linux
+~ $ ip_stat
+No command ip_stat found, did you mean:
+ Command lpstat in package cups
+ Command db_stat in package db
+ Command ifstat in package iproute2
+ Command img_stat in package sleuthkit
+~ $ dmesg
+Bad system call
+~ $ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+~ $ git help -a
+See 'git help <command>' to read about a specific subcommand
+
+Main Porcelain Commands
+   add                     Add file contents to the index
+   am                      Apply a series of patches from a mailbox
+   archive                 Create an archive of files from a named tree
+   bisect                  Use binary search to find the commit that introduced a bug
+   branch                  List, create, or delete branches
+   bundle                  Move objects and refs by archive
+   checkout                Switch branches or restore working tree files
+   cherry-pick             Apply the changes introduced by some existing commits
+   citool                  Graphical alternative to git-commit
+   clean                   Remove untracked files from the working tree
+   clone                   Clone a repository into a new directory
+   commit                  Record changes to the repository
+   describe                Give an object a human readable name based on an available ref
+   diff                    Show changes between commits, commit and working tree, etc
+   fetch                   Download objects and refs from another repository
+   format-patch            Prepare patches for e-mail submission
+   gc                      Cleanup unnecessary files and optimize the local repository
+   gitk                    The Git repository browser
+   grep                    Print lines matching a pattern
+   gui                     A portable graphical interface to Git
+   init                    Create an empty Git repository or reinitialize an existing one
+   log                     Show commit logs
+   maintenance             Run tasks to optimize Git repository data
+   merge                   Join two or more development histories together
+   mv                      Move or rename a file, a directory, or a symlink
+   notes                   Add or inspect object notes
+   pull                    Fetch from and integrate with another repository or a local branch
+   push                    Update remote refs along with associated objects
+   range-diff              Compare two commit ranges (e.g. two versions of a branch)
+   rebase                  Reapply commits on top of another base tip
+   reset                   Reset current HEAD to the specified state
+   restore                 Restore working tree files
+   revert                  Revert some existing commits
+   rm                      Remove files from the working tree and from the index
+   scalar                  A tool for managing large Git repositories
+   shortlog                Summarize 'git log' output
+   show                    Show various types of objects
+   sparse-checkout         Reduce your working tree to a subset of tracked files
+   stash                   Stash the changes in a dirty working directory away
+   status                  Show the working tree status
+   submodule               Initialize, update or inspect submodules
+   switch                  Switch branches
+   tag                     Create, list, delete or verify a tag object signed with GPG
+   worktree                Manage multiple working trees
+
+Ancillary Commands / Manipulators
+   config                  Get and set repository or global options
+   fast-export             Git data exporter
+   fast-import             Backend for fast Git data importers
+   filter-branch           Rewrite branches
+   mergetool               Run merge conflict resolution tools to resolve merge conflicts
+   pack-refs               Pack heads and tags for efficient repository access
+   prune                   Prune all unreachable objects from the object database
+   reflog                  Manage reflog information
+   remote                  Manage set of tracked repositories
+   repack                  Pack unpacked objects in a repository
+   replace                 Create, list, delete refs to replace objects
+
+Ancillary Commands / Interrogators
+   annotate                Annotate file lines with commit information
+   blame                   Show what revision and author last modified each line of a file
+   bugreport               Collect information for user to file a bug report
+   count-objects           Count unpacked number of objects and their disk consumption
+   diagnose                Generate a zip archive of diagnostic information
+   difftool                Show changes using common diff tools
+   fsck                    Verifies the connectivity and validity of the objects in the database
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+:
 
 class Program
 {
@@ -2735,3 +2947,216 @@ usage: git clone [<options>] [--] <repo> [<dir>]
     --[no-]sparse         initialize sparse-checkout file to include only files at root
     --[no-]bundle-uri <uri>
                           a URI for downloading bundles before fetching from origin remote
+~ $ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+~ $ gcloud help
+No command gcloud found, did you mean:
+ Command hcloud in package hcloud
+~ $ helo
+No command helo found, did you mean:
+ Command hello in package hello
+ Command helm in package helm
+~ $ help
+GNU bash, version 5.2.26(1)-release (aarch64-unknown-linux-android)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                          history [-c] [-d offset] [n] or history -anrw [filename] or histor>
+ (( expression ))                                                      if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [>
+ . filename [arguments]                                                jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                                     kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill>
+ [ arg... ]                                                            let arg [arg ...]
+ [[ expression ]]                                                      local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                                        logout [n]
+ bg [job_spec ...]                                                     mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] >
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r >  popd [-n] [+N | -N]
+ break [n]                                                             printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                     pushd [-n] [+N | -N | dir]
+ caller [expr]                                                         pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac            read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars>
+ cd [-L|[-P [-e]] [-@]] [dir]                                          readarray [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd>
+ command [-pVv] command [arg ...]                                      readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wo>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G g>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DEI] [name ...]                              set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
+ continue [n]                                                          shift [n]
+ coproc [NAME] command [redirections]                                  shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value] ...] or declare -p [-aAfFiln>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                                suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                             test [expr]
+ echo [-neE] [arg ...]                                                 time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                          times
+ eval [arg ...]                                                        trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argument ...]] [redirection ...]       true
+ exit [n]                                                              type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                          typeset [-aAfFgiIlnrtux] name[=value] ... or typeset -p [-aAfFilnr>
+ false                                                                 ulimit [-SHabcdefiklmnpqrstuvxPRT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]      umask [-p] [-S] [mode]
+ fg [job_spec]                                                         unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                          unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done                         until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }                variables - Names and meanings of some shell variables
+ getopts optstring name [arg ...]                                      wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                             while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]                                             { COMMANDS ; }
+~ $ system stat
+No command system found, did you mean:
+ Command bastet in package bastet
+ Command paste in package coreutils
+ Command syscse in package dwarves
+ Command states in package enscript
+ Command yat2m in package libgpg-error
+ Command sortm in package mailutils
+ Command sortm in package nmh
+ Command sem in package parallel
+ Command pastel in package pastel
+ Command sysctl in package procps
+ Command smem in package secure-delete
+ Command skate in package skate
+ Command sorter in package sleuthkit
+ Command step in package step-cli
+ Command swtpm in package swtpm
+ Command synctex in package texlive-bin
+ Command setterm in package util-linux
+~ $ ip_stat
+No command ip_stat found, did you mean:
+ Command lpstat in package cups
+ Command db_stat in package db
+ Command ifstat in package iproute2
+ Command img_stat in package sleuthkit
+~ $ dmesg
+Bad system call
+~ $ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+~ $ git help -a
+See 'git help <command>' to read about a specific subcommand
+
+Main Porcelain Commands
+   add                     Add file contents to the index
+   am                      Apply a series of patches from a mailbox
+   archive                 Create an archive of files from a named tree
+   bisect                  Use binary search to find the commit that introduced a bug
+   branch                  List, create, or delete branches
+   bundle                  Move objects and refs by archive
+   checkout                Switch branches or restore working tree files
+   cherry-pick             Apply the changes introduced by some existing commits
+   citool                  Graphical alternative to git-commit
+   clean                   Remove untracked files from the working tree
+   clone                   Clone a repository into a new directory
+   commit                  Record changes to the repository
+   describe                Give an object a human readable name based on an available ref
+   diff                    Show changes between commits, commit and working tree, etc
+   fetch                   Download objects and refs from another repository
+   format-patch            Prepare patches for e-mail submission
+   gc                      Cleanup unnecessary files and optimize the local repository
+   gitk                    The Git repository browser
+   grep                    Print lines matching a pattern
+   gui                     A portable graphical interface to Git
+   init                    Create an empty Git repository or reinitialize an existing one
+   log                     Show commit logs
+   maintenance             Run tasks to optimize Git repository data
+   merge                   Join two or more development histories together
+   mv                      Move or rename a file, a directory, or a symlink
+   notes                   Add or inspect object notes
+   pull                    Fetch from and integrate with another repository or a local branch
+   push                    Update remote refs along with associated objects
+   range-diff              Compare two commit ranges (e.g. two versions of a branch)
+   rebase                  Reapply commits on top of another base tip
+   reset                   Reset current HEAD to the specified state
+   restore                 Restore working tree files
+   revert                  Revert some existing commits
+   rm                      Remove files from the working tree and from the index
+   scalar                  A tool for managing large Git repositories
+   shortlog                Summarize 'git log' output
+   show                    Show various types of objects
+   sparse-checkout         Reduce your working tree to a subset of tracked files
+   stash                   Stash the changes in a dirty working directory away
+   status                  Show the working tree status
+   submodule               Initialize, update or inspect submodules
+   switch                  Switch branches
+   tag                     Create, list, delete or verify a tag object signed with GPG
+   worktree                Manage multiple working trees
+
+Ancillary Commands / Manipulators
+   config                  Get and set repository or global options
+   fast-export             Git data exporter
+   fast-import             Backend for fast Git data importers
+   filter-branch           Rewrite branches
+   mergetool               Run merge conflict resolution tools to resolve merge conflicts
+   pack-refs               Pack heads and tags for efficient repository access
+   prune                   Prune all unreachable objects from the object database
+   reflog                  Manage reflog information
+   remote                  Manage set of tracked repositories
+   repack                  Pack unpacked objects in a repository
+   replace                 Create, list, delete refs to replace objects
+
+Ancillary Commands / Interrogators
+   annotate                Annotate file lines with commit information
+   blame                   Show what revision and author last modified each line of a file
+   bugreport               Collect information for user to file a bug report
+   count-objects           Count unpacked number of objects and their disk consumption
+   diagnose                Generate a zip archive of diagnostic information
+   difftool                Show changes using common diff tools
+   fsck                    Verifies the connectivity and validity of the objects in the database
+   gitweb                  Git web interface (web frontend to Git repositories)
+   help                    Display help information about Git
+   instaweb                Instantly browse your working repository in gitweb
+   merge-tree              Perform merge without touching index or working tree
+   rerere                  Reuse recorded resolution of conflicted merges
+   show-branch             Show branches and their commits
+   verify-commit           Check the GPG signature of commits
+:

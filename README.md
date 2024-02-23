@@ -3639,3 +3639,756 @@ Ancillary Commands / Interrogators
    verify-commit           Check the GPG signature of commits
    
 :
+~ $ ~ $ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+       ssh [-Q query_option]
+~ $ gcloud help
+No command gcloud found, did you mean:
+ Command hcloud in package hcloud
+~ $ helo
+No command helo found, did you mean:
+ Command hello in package hello
+ Command helm in package helm
+~ $ help
+GNU bash, version 5.2.26(1)-release (aarch64-unknown-linux-android)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                          history [-c] [-d offset] [n] or history -anrw [filename] or histor>
+ (( expression ))                                                      if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [>
+ . filename [arguments]                                                jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                                     kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill>
+ [ arg... ]                                                            let arg [arg ...]
+ [[ expression ]]                                                      local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                                        logout [n]
+ bg [job_spec ...]                                                     mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] >
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r >  popd [-n] [+N | -N]
+ break [n]                                                             printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                     pushd [-n] [+N | -N | dir]
+ caller [expr]                                                         pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac            read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars>
+ cd [-L|[-P [-e]] [-@]] [dir]                                          readarray [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd>
+ command [-pVv] command [arg ...]                                      readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wo>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G g>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DEI] [name ...]                              set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
+ continue [n]                                                          shift [n]
+ coproc [NAME] command [redirections]                                  shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value] ...] or declare -p [-aAfFiln>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                                suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                             test [expr]
+ echo [-neE] [arg ...]                                                 time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                          times
+ eval [arg ...]                                                        trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argument ...]] [redirection ...]       true
+ exit [n]                                                              type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                          typeset [-aAfFgiIlnrtux] name[=value] ... or typeset -p [-aAfFilnr>
+ false                                                                 ulimit [-SHabcdefiklmnpqrstuvxPRT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]      umask [-p] [-S] [mode]
+ fg [job_spec]                                                         unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                          unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done                         until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }                variables - Names and meanings of some shell variables
+ getopts optstring name [arg ...]                                      wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                             while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]                                             { COMMANDS ; }
+~ $ system stat
+No command system found, did you mean:
+ Command bastet in package bastet
+ Command paste in package coreutils
+ Command syscse in package dwarves
+ Command states in package enscript
+ Command yat2m in package libgpg-error
+ Command sortm in package mailutils
+ Command sortm in package nmh
+ Command sem in package parallel
+ Command pastel in package pastel
+ Command sysctl in package procps
+ Command smem in package secure-delete
+ Command skate in package skate
+ Command sorter in package sleuthkit
+ Command step in package step-cli
+ Command swtpm in package swtpm
+ Command synctex in package texlive-bin
+ Command setterm in package util-linux
+~ $ ip_stat
+No command ip_stat found, did you mean:
+   clang-formatds          Git Wire Protocol, Version 2er-the-wireriesentsrdergeking treectsbase
+bash: /data/data/com.termux/files/home: Is a directory
+No command usage: found, did you mean:
+ Command osage in package graphviz
+No command [-c found, did you mean:
+ Command bc in package bc
+ Command atc in package bsd-games
+ Command c in package c-script
+ Command csc in package chicken
+ Command cc in package clang
+ Command [ in package coreutils
+ Command lpc in package cups
+ Command dtc in package dtc
+ Command duc in package duc
+ Command bbc in package flang
+ Command gac in package gap
+ Command ghc in package ghc
+ Command hpc in package ghc-libs
+ Command gc in package graphviz
+ Command pic in package groff
+ Command tc in package iproute2
+ Command llc in package llvm
+ Command inc in package mailutils
+ Command mc in package mc
+ Command mmc in package mercury
+ Command csc in package mono
+ Command mpc in package mpc
+ Command psc in package n-t-roff-sc
+ Command tic in package ncurses-utils
+ Command nc in package netcat-openbsd
+ Command inc in package nmh
+ Command moc in package qt5-qtbase from the x11-repo repository
+ Command rc in package rcshell
+ Command scc in package scc
+ Command shc in package shc
+ Command rec in package sox
+ Command tcc in package tcc
+ Command vlc in package vlc
+ Command vlc in package vlc-qt from the x11-repo repository
+ Command znc in package znc
+No command [-e found, did you mean:
+ Command age in package age
+ Command [ in package coreutils
+ Command dte in package dte
+ Command fte in package fte
+ Command joe in package joe
+ Command joe in package jupp
+ Command pee in package moreutils
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ode in package plotutils from the x11-repo repository
+ Command gie in package proj
+ Command tie in package texlive-bin
+No command [-J found, did you mean:
+ Command [ in package coreutils
+No command [-O found, did you mean:
+ Command [ in package coreutils
+No command [-S found, did you mean:
+ Command [ in package coreutils
+destination: command not found
+ssh: Could not resolve hostname [-q: No address associated with hostname
+bash: /data/data/com.termux/files/home: Is a directory
+No command No found, did you mean:
+ Command go in package golang
+ Command jo in package jo
+ Command o in package o-editor
+ Command co in package rcs
+No command Command found, did you mean:
+ Command comsatd in package mailutils
+ Command common in package scala
+ Command w3mman in package w3m
+bash: /data/data/com.termux/files/home: Is a directory
+No command No found, did you mean:
+ Command go in package golang
+ Command jo in package jo
+ Command o in package o-editor
+ Command co in package rcs
+No command Command found, did you mean:
+ Command comsatd in package mailutils
+ Command common in package scala
+ Command w3mman in package w3m
+No command Command found, did you mean:
+ Command comsatd in package mailutils
+ Command common in package scala
+ Command w3mman in package w3m
+bash: /data/data/com.termux/files/home: Is a directory
+bash: syntax error near unexpected token `('
+bash: command substitution: line 1: unexpected EOF while looking for matching `''
+No command These found, did you mean:
+ Command phear in package cavez-of-phear
+ Command choose in package choose
+ Command ctest in package cmake
+ Command false in package coreutils
+ Command cuse in package cuse from the x11-repo repository
+ Command desed in package desed
+ Command stest in package dmenu from the x11-repo repository
+ Command host in package dnsutils
+ Command ghex in package ghex from the x11-repo repository
+ Command goose in package goose
+ Command chem in package groff
+ Command gzexe in package gzip
+ Command has in package has
+ Command helm in package helm
+ Command hexer in package hexer
+ Command heyu in package heyu
+ Command hls in package hfsutils
+ Command ices in package ices
+ Command jhead in package jhead
+ Command khost in package knot-utils
+ Command less in package less
+ Command mhseq in package mailutils
+ Command noise in package mesa-demos from the x11-repo repository
+ Command pee in package moreutils
+ Command reset in package ncurses
+ Command free in package procps
+ Command rhash in package rhash
+ Command chpst in package runit
+ Command tere in package tere
+ Command chsh in package termux-tools
+ Command reseq in package teseq
+ Command tree in package tree
+ Command dmesg in package util-linux
+ Command quest in package xapian-tools
+ Command xhs in package xh
+ Command xhost in package xorg-xhost from the x11-repo repository
+ Command ztee in package zmap from the root-repo repository
+bash: command substitution: line 1: unexpected EOF while looking for matching `''
+No command Use found, did you mean:
+ Command age in package age
+ Command asy in package asymptote
+ Command bsh in package beanshell
+ Command as in package binutils-bin
+ Command csc in package chicken
+ Command ls in package coreutils
+ Command csh in package csh
+ Command cuse in package cuse from the x11-repo repository
+ Command sh in package dash
+ Command ssh in package dropbear
+ Command dte in package dte
+ Command tsh in package etsh
+ Command fte in package fte
+ Command gs in package ghostscript
+ Command gsf in package gsf-tools
+ Command ss in package iproute2
+ Command ns6 in package ipv6toolkit
+ Command joe in package joe
+ Command joe in package jupp
+ Command ksu in package krb5
+ Command psl in package libpsl
+ Command ksh in package loksh
+ Command lsb in package lrzsz
+ Command lsd in package lsd
+ Command csc in package mono
+ Command pee in package moreutils
+ Command psc in package n-t-roff-sc
+ Command tset in package ncurses
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ssh in package openssh
+ Command sem in package parallel
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command gie in package proj
+ Command sv in package runit
+ Command sd in package sd
+ Command sed in package sed
+ Command sl in package sl
+ Command gst in package smalltalk
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw
+ Command ts in package task-spooler
+ Command tsh in package teleport-tsh
+ Command su in package termux-tools
+ Command tie in package texlive-bin
+ Command sn in package tin-summer
+ Command tsz in package trzsz-go
+ Command tsp in package tsduck-tools
+ Command tsu in package tsu
+ Command xsel in package xsel from the x11-repo repository
+ Command zsh in package zsh
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `if'
+bash: filename: No such file or directory
+bash: syntax error near unexpected token `newline'
+bash: [: missing `]'
+bash: syntax error near unexpected token `local'
+bash: alias: [-p]: not found
+bash: alias: ...: not found
+bash: alias: ]: not found
+bash: alias: logout: not found
+bash: alias: [n]: not found
+bash: syntax error near unexpected token `newline'
+readline: [-lpsvPSVX]: no key sequence terminator
+readline: [-m: no key sequence terminator
+readline: keymap]: no key sequence terminator
+readline: [-f: no key sequence terminator
+readline: filename]: no key sequence terminator
+readline: [-q: no key sequence terminator
+readline: name]: no key sequence terminator
+readline: [-u: no key sequence terminator
+readline: name]: no key sequence terminator
+readline: [-r: no key sequence terminator
+readline: [-n]: no key sequence terminator
+readline: [+N: no key sequence terminator
+No command -N] found, did you mean:
+ Command 7zz in package 7zip
+ Command ack in package ack-grep
+ Command acr in package acr
+ Command age in package age
+ Command agg in package agg
+ Command aha in package aha
+ Command adb in package android-tools
+ Command ant in package ant
+ Command ab in package apache2
+ Command apt in package apt
+ Command arj in package arj
+ Command a2x in package asciidoc
+ Command asy in package asymptote
+ Command at in package at
+ Command als in package atool
+ Command bat in package bat
+ Command bc in package bc
+ Command bsh in package beanshell
+ Command bed in package bed
+ Command ar in package binutils
+ Command as in package binutils-bin
+ Command ar in package binutils-is-llvm
+ Command bk in package bk
+ Command atc in package bsd-games
+ Command buf in package buf
+ Command bvi in package bvi
+ Command c in package c-script
+ Command ceu in package ceu-lang
+ Command cfm in package cfm
+ Command csc in package chicken
+ Command c++ in package clang
+ Command ccr in package codecrypt
+ Command clp in package coinor-clp
+ Command ctr in package containerd from the root-repo repository
+ Command [ in package coreutils
+ Command ocs in package cscope
+ Command csh in package csh
+ Command lp in package cups
+ Command cvs in package cvs
+ Command d8 in package d8
+ Command dar in package dar
+ Command sh in package dash
+ Command dlv in package delve
+ Command cmp in package diffutils
+ Command bzz in package djvulibre
+ Command dig in package dnsutils
+ Command dog in package dog
+ Command scp in package dropbear
+ Command dtc in package dtc
+ Command dte in package dte
+ Command dua in package dua
+ Command duc in package duc
+ Command duf in package duf
+ Command duk in package duktape
+ Command dwm in package dwm from the x11-repo repository
+ Command dx in package dx
+ Command ecj in package ecj
+ Command ecl in package ecl
+ Command ed in package ed
+ Command eja in package eja
+ Command ef in package electric-fence
+ Command iex in package elixir
+ Command eog in package eog from the x11-repo repository
+ Command erl in package erlang
+ Command et in package et
+ Command tsh in package etsh
+ Command eww in package eww from the x11-repo repository
+ Command eza in package eza
+ Command fcp in package fcp
+ Command fd in package fd
+ Command fdm in package fdm
+ Command feh in package feh from the x11-repo repository
+ Command fff in package fff
+ Command bbc in package flang
+ Command fm in package fm
+ Command fte in package fte
+ Command fx in package fx
+ Command fzf in package fzf
+ Command fzy in package fzy
+ Command gac in package gap
+ Command dl in package gatling
+ Command awk in package gawk
+ Command gbt in package gbt
+ Command gdb in package gdb
+ Command gdl in package gdrive-downloader
+ Command gdu in package gdu
+ Command evm in package geth-utils
+ Command gh in package gh
+ Command ghc in package ghc
+ Command hpc in package ghc-libs
+ Command gs in package ghostscript
+ Command git in package git
+ Command ein in package gitoxide
+ Command gio in package glib-bin
+ Command gn in package gn
+ Command gpg in package gnupg
+ Command go in package golang
+ Command gm in package graphicsmagick
+ Command dot in package graphviz
+ Command eqn in package groff
+ Command grv in package grv
+ Command gsf in package gsf-tools
+ Command gum in package gum
+ Command gw in package gw from the x11-repo repository
+ Command ghb in package handbrake from the x11-repo repository
+ Command has in package has
+ Command hx in package helix
+ Command hcd in package hfsutils
+ Command hr in package hr
+ Command hh in package hstr
+ Command hub in package hub
+ Command hut in package hut
+ Command hz in package hz
+ Command i3 in package i3 from the x11-repo repository
+ Command i3 in package i3-gaps from the x11-repo repository
+ Command ftp in package inetutils
+ Command ip in package iproute2
+ Command na6 in package ipv6toolkit
+ Command vvp in package iverilog
+ Command iw in package iw from the root-repo repository
+ Command jo in package jo
+ Command joe in package joe
+ Command jq in package jq
+ Command jql in package jql
+ Command joe in package jupp
+ Command jwm in package jwm from the x11-repo repository
+ Command k9s in package k9s
+ Command kak in package kakoune
+ Command k in package kona
+ Command ksu in package krb5
+ Command dub in package ldc
+ Command ldd in package ldd
+ Command lf in package lf
+ Command lha in package lhasa
+ Command pl in package libgnustep-base
+ Command psl in package libpsl
+ Command h3 in package libuber-h3
+ Command cvt in package libxcvt from the x11-repo repository
+ Command lld in package lld
+ Command llc in package llvm
+ Command not in package llvm-tools
+ Command lnd in package lnd
+ Command ksh in package loksh
+ Command lr in package lr
+ Command lrb in package lrzsz
+ Command lsd in package lsd
+ Command lux in package lux
+ Command lvm in package lvm2 from the root-repo repository
+ Command lyx in package lyx from the x11-repo repository
+ Command lz4 in package lz4
+ Command m4 in package m4
+ Command ali in package mailutils
+ Command man in package man
+ Command mvn in package maven
+ Command mc in package mc
+ Command mdp in package mdp
+ Command mdb in package mercury
+ Command ray in package mesa-demos from the x11-repo repository
+ Command mg in package mg
+ Command mlr in package miller
+ Command al in package mono
+ Command pee in package moreutils
+ Command mwm in package motif from the x11-repo repository
+ Command mpc in package mpc
+ Command mpd in package mpd
+ Command mpv in package mpv
+ Command mpv in package mpv-x from the x11-repo repository
+ Command lz in package mtools
+ Command mtr in package mtr from the root-repo repository
+ Command mu in package mu
+ Command mr in package myrepos
+ Command psc in package n-t-roff-sc
+ Command tic in package ncurses-utils
+ Command ne in package ne
+ Command arp in package net-tools
+ Command nc in package netcat-openbsd
+ Command nim in package nim
+ Command ali in package nmh
+ Command nnn in package nnn
+ Command nms in package no-more-secrets
+ Command npm in package nodejs
+ Command npm in package nodejs-lts
+ Command pp in package nss-utils
+ Command nu in package nushell
+ Command nx in package nxengine from the x11-repo repository
+ Command o in package o-editor
+ Command ol in package ol
+ Command jar in package openjdk-17
+ Command scp in package openssh
+ Command 7z in package p7zip
+ Command sem in package parallel
+ Command gp in package pari
+ Command fpp in package pathpicker
+ Command pb in package pb
+ Command pet in package pet
+ Command php in package php
+ Command pil in package picolisp
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command cct in package proj
+ Command pd in package proot-distro
+ Command pup in package pup
+ Command pv in package pv
+ Command pip in package python-pip
+ Command q in package q-dns-client
+ Command moc in package qt5-qtbase from the x11-repo repository
+ Command qml in package qt5-qtdeclarative from the x11-repo repository
+ Command qev in package qt5-qttools from the x11-repo repository
+ Command qjs in package quickjs
+ Command r2 in package radare2
+ Command rbw in package rbw
+ Command ci in package rcs
+ Command rc in package rcshell
+ Command rem in package remind
+ Command icp in package renameutils
+ Command rig in package rig
+ Command rip in package rip
+ Command rg in package ripgrep
+ Command rga in package ripgrep-all
+ Command rnr in package rnr
+ Command rpm in package rpm
+ Command rq in package rq
+ Command erb in package ruby
+ Command ri in package ruby-ri
+ Command sv in package runit
+ Command rw in package rw
+ Command net in package samba
+ Command scc in package scc
+ Command sd in package sd
+ Command srm in package secure-delete
+ Command sed in package sed
+ Command shc in package shc
+ Command ag in package silversearcher-ag
+ Command sl in package sl
+ Command fls in package sleuthkit
+ Command gst in package smalltalk
+ Command rec in package sox
+ Command st in package st from the x11-repo repository
+ Command svn in package subversion
+ Command sun in package sun
+ Command sr in package surfraw
+ Command tar in package tar
+ Command ts in package task-spooler
+ Command tcc in package tcc
+ Command nns in package tcllib
+ Command tdl in package tdl
+ Command tea in package tea
+ Command tsh in package teleport-tsh
+ Command am in package termux-am
+ Command cmd in package termux-tools
+ Command ebb in package texlive-bin
+ Command tig in package tig
+ Command sn in package tin-summer
+ Command tf in package tinyfugue
+ Command tor in package tor
+ Command trz in package trzsz-go
+ Command tsp in package tsduck-tools
+ Command tsu in package tsu
+ Command tut in package tut
+ Command tjs in package txikijs
+ Command ug in package ugrep
+ Command up in package up
+ Command upx in package upx
+ Command cal in package util-linux
+ Command cu in package uucp
+ Command vim in package vim
+ Command ex in package vim-gtk from the x11-repo repository
+ Command vim in package vim-python
+ Command vt in package virustotal-cli
+ Command vis in package vis
+ Command viu in package viu
+ Command vlc in package vlc
+ Command vlc in package vlc-qt from the x11-repo repository
+ Command vtm in package vtm
+ Command w3m in package w3m
+ Command wg in package wireguard-tools
+ Command wiz in package wiz
+ Command wol in package wol
+ Command wrk in package wrk
+ Command x2x in package x2x from the x11-repo repository
+ Command xh in package xh
+ Command xml in package xmlstarlet
+ Command X in package xorg-server from the x11-repo repository
+ Command twm in package xorg-twm from the x11-repo repository
+ Command xev in package xorg-xev from the x11-repo repository
+ Command xz in package xz-utils
+ Command yq in package yq
+ Command z3 in package z3
+ Command zig in package zig
+ Command zip in package zip
+ Command zls in package zls
+ Command znc in package znc
+ Command zsh in package zsh
+bash: break: only meaningful in a `for', `while', or `until' loop
+bash: builtin: [shell-builtin: not a shell builtin
+No command -N found, did you mean:
+ Command ab in package apache2
+ Command at in package at
+ Command bc in package bc
+ Command ar in package binutils
+ Command as in package binutils-bin
+ Command ar in package binutils-is-llvm
+ Command bk in package bk
+ Command c in package c-script
+ Command cc in package clang
+ Command [ in package coreutils
+ Command lp in package cups
+ Command d8 in package d8
+ Command sh in package dash
+ Command dx in package dx
+ Command ed in package ed
+ Command ef in package electric-fence
+ Command et in package et
+ Command fd in package fd
+ Command fm in package fm
+ Command fx in package fx
+ Command dl in package gatling
+ Command gh in package gh
+ Command gs in package ghostscript
+ Command gn in package gn
+ Command go in package golang
+ Command gm in package graphicsmagick
+ Command gc in package graphviz
+ Command gw in package gw from the x11-repo repository
+ Command hx in package helix
+ Command hr in package hr
+ Command hh in package hstr
+ Command hz in package hz
+ Command i3 in package i3 from the x11-repo repository
+ Command i3 in package i3-gaps from the x11-repo repository
+ Command ip in package iproute2
+ Command iw in package iw from the root-repo repository
+ Command jo in package jo
+ Command jq in package jq
+ Command k in package kona
+ Command lf in package lf
+ Command pl in package libgnustep-base
+ Command h3 in package libuber-h3
+ Command lr in package lr
+ Command m4 in package m4
+ Command mc in package mc
+ Command ml in package mercury
+ Command mg in package mg
+ Command al in package mono
+ Command ts in package moreutils
+ Command lz in package mtools
+ Command mu in package mu
+ Command mr in package myrepos
+ Command sc in package n-t-roff-sc
+ Command ne in package ne
+ Command nc in package netcat-openbsd
+ Command pp in package nss-utils
+ Command nu in package nushell
+ Command nx in package nxengine from the x11-repo repository
+ Command o in package o-editor
+ Command ol in package ol
+ Command 7z in package p7zip
+ Command gp in package pari
+ Command pb in package pb
+ Command ps in package procps
+ Command pd in package proot-distro
+ Command pv in package pv
+ Command q in package q-dns-client
+ Command r2 in package radare2
+ Command ci in package rcs
+ Command rc in package rcshell
+ Command rg in package ripgrep
+ Command rq in package rq
+ Command ri in package ruby-ri
+ Command sv in package runit
+ Command rw in package rw
+ Command sd in package sd
+ Command ag in package silversearcher-ag
+ Command sl in package sl
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw
+ Command ts in package task-spooler
+ Command pt in package tcllib
+ Command am in package termux-am
+ Command df in package termux-tools
+ Command ht in package texlive-bin
+ Command sn in package tin-summer
+ Command tf in package tinyfugue
+ Command ug in package ugrep
+ Command up in package up
+ Command ul in package util-linux
+ Command cu in package uucp
+ Command ex in package vim-gtk from the x11-repo repository
+ Command vt in package virustotal-cli
+ Command wg in package wireguard-tools
+ Command xh in package xh
+ Command X in package xorg-server from the x11-repo repository
+ Command xz in package xz-utils
+ Command yq in package yq
+ Command z3 in package z3
+No command dir] found, did you mean:
+ Command dir in package coreutils
+ Command dirb in package dirb
+bash: syntax error near unexpected token `['
+bash: syntax error near unexpected token `newline'
+[-pVv]: command not found
+bash: syntax error near unexpected token `done'
+bash: compopt: [-o: no completion specification
+No command +o found, did you mean:
+ Command go in package golang
+ Command jo in package jo
+ Command o in package o-editor
+ Command co in package rcs
+bash: continue: only meaningful in a `for', `while', or `until' loop
+[1] 20257
+bash: declare: `[-aAfFgiIlnrtux]': not a valid identifier
+bash: declare: `[name[=value]': not a valid identifier
+bash: declare: `...]': not a valid identifier
+bash: declare: `-p': not a valid identifier
+bash: declare: `[-aAfFiln': not a valid identifier
+bash: declare: `[arguments]': not a valid identifier
+bash: dirs: [-clpv]: invalid option
+dirs: usage: dirs [-clpv] [+N] [-N]
+bash: disown: [-h]: no such job
+bash: disown: [-ar]: no such job
+bash: disown: [jobspec: no such job
+bash: disown: ...: no such job
+[NAME]: command not found
+No command pid found, did you mean:
+ Command id in package coreutils
+ Command pic in package groff
+ Command pil in package picolisp
+ Command pd in package proot-distro
+ Command pip in package python-pip
+[1]+  Exit 127                coproc COPROC [NAME] command [redirections] shopt [-pqsu] [-o] [optname ...]
+[-neE] [arg ...] time [-p] pipeline
+bash: enable: [-a]: not a shell builtin
+bash: enable: [-dnps]: not a shell builtin
+bash: enable: [-f: not a shell builtin
+bash: enable: filename]: not a shell builtin
+bash: enable: [name: not a shell builtin
+bash: enable: ...]: not a shell builtin
+No command [arg found, did you mean:
+ Command agg in package agg
+ Command arj in package arj
+ Command ar in package binutils
+ Command ar in package binutils-is-llvm
+ Command borg in package borgbackup
+ Command dar in package dar
+ Command dart in package dart
+ Command xargs in package findutils
+ Command mark in package mailutils
+ Command arp in package net-tools
+ Command mark in package nmh
+ Command jar in package openjdk-17
+ Command par2 in package par2
+ Command rg in package ripgrep
+ Command cargo in package rust
+ Command ag in package silversearcher-ag
+ Command tar in package tar
+ Command Xorg in package xorg-server from the x11-repo repository
+ Command yara in package yara
+ Command yarn in package yarn
+bash: exec: [-cl]: not found
+logout
+bash: exit: [n]: numeric argument required
+
+[Process completed (code 2) - press Enter]
